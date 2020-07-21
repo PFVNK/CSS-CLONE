@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.emoji-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-head {
+  height: 20vh;
+  width: 30vw;
+  border-radius: 100%;
+  background-color: #ffcc4d;
+}
+
+.emoji-eyes {
+  height: 6vh;
+  width: 25vw;
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-around;
+  transform: translate(10%, 100%);
+}
+
+.emoji-left-eye {
+  height: 5vh;
+  width: 6.8vw;
+  border-radius: 100%;
+  background-color: #ffcc4d;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+}
+
+.emoji-left-eye-pupil {
+  height: 3vh;
+  width: 6.8vw;
+  border-radius: 50%;
+  background-color: #664500;
+  position: relative;
+}
+
+.emoji-left-eye-cover {
+  height: 1.9vh;
+  width: 6.8vw;
+  border-radius: 100%;
+  background-color: #ffcc4d;
+  position: absolute;
+  transform: translate(0%, 30%);
+}
+
+.emoji-right-eye {
+  height: 5vh;
+  width: 6.8vw;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-right-eye-pupil {
+  height: 2vh;
+  width: 3vw;
+  border-radius: 100%;
+  background-color: #664500;
+}
+
+.emoji-mouth {
+  height: 5vh;
+  width: 25vw;
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  transform: translate(10%, 130%);
+}
+
+.emoji-mouth-mouth {
+  height: 10vh;
+  width: 18vw;
+  border-radius: 100%;
+  background-color: #664500;
+}
+
+.emoji-tounge {
+  height: 5.5vh;
+  width: 7.5vw;
+  /* border: solid red; */
+  background-color: #e75a70;
+  transform: translate(150%, 25%);
+}
+
+.emoji-tounge-ball {
+  height: 3.2vh;
+  width: 7.5vw;
+  border-radius: 100%;
+  background-color: #e75a70;
+  transform: translate(150%, 0%);
+}
+
+.emoji-tounge-line {
+  width: 1px;
+  height: 4vh;
+  background-color: #664500;
+  opacity: 50%;
+  transform: translate(6700%, -180%);
+}
