@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clown-emoji-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clown-emoji {
+  height: 200px;
+  width: 200px;
+  background-color: #c6c29f;
+  border-radius: 50%;
+}
+
+.clown-emoji-eyes {
+  height: 90px;
+  width: 140px;
+  transform: translate(30px, 45px);
+  display: flex;
+  justify-content: space-around;
+}
+
+.clown-emoji-eye {
+  height: 90px;
+  width: 45px;
+  background-color: #206a99;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clown-emoji-sclera {
+  height: 65px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clown-emoji-pupil {
+  height: 40px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.clown-emoji-nose {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #f93a30;
+  transform: translate(85px, 25px);
+}
+
+.clown-emoji-mouth {
+  height: 110px;
+  width: 110px;
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(45px, -60px);
+}
+
+.clown-emoji-lips {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #f93a30;
+  transform: rotate(45deg)
+}
+
+.clown-emoji-white {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 white;
+  transform: translate(0, 20px);
+}

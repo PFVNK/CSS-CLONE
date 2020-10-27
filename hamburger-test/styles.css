@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hamburger-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F7DAB8;
+}
+
+.top-bun {
+  width: 100px;
+  height: 50px;
+  border: solid 4px #473338;
+  border-bottom: 0;
+  border-radius: 150px 150px 0 0;
+  background-color: #FFCD62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+
+.seed {
+  height: .05px;
+  width: 10px;
+  border: solid 2px #473338;
+  border-radius: 5px;
+}
+
+.top-seed {
+  height: 10px;
+  width: 50px;
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-seed {
+  height: 15px;
+  width: 70px;
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bun-line {
+  height: .05px;
+  width: 120px;
+  border: solid 2px #473338;
+  border-radius: 5px;
+  transform: translate(0, 12px);
+}
+
+.lettuce {
+  width: 100px;
+  height: 15px;
+  border: solid 4px #473338;
+  border-bottom: 0;
+  background-color: #76E278;
+}
+
+.lettuce-line {
+  height: 15px;
+}
+
+.tomato img {
+  transform: translate(-30px, -85px);
+}
+
+.tomato {
+  width: 100px;
+  height: 10px;
+  border: solid 4px #473338;
+  border-bottom: 0;
+  border-top: 0;
+  background-color: #FF6F6B;
+}
+
+.bottom-bun {
+  width: 100px;
+  height: 20px;
+  border: solid 4px #473338;
+  border-top: solid 1px;
+  border-radius: 0 0 5px 5px;
+  background-color: #FFCD62;
+}
+
+.meat {
+  width: 120px;
+  height: 20px;
+  border: solid 4px #473338;
+  border-radius: 5px;
+  background-color: #69504A;
+}

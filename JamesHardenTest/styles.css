@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.james-face-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E3A7A0;
+}
+
+.james-ears {
+  height: 50px;
+  width: 155px;
+  background-color: #76483D;
+  transform: translate(198%, -70%);
+  border-radius: 10% 10% 80% 80%;
+}
+
+.james-hair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.james-head-mohawk-container {
+  position: absolute;
+  transform: translate(93%, -145%);
+}
+
+.james-head-mohawk {
+  position: relative;
+  background-color: #0A0606;
+  text-align: left;
+}
+
+.james-head-mohawk:before,
+.james-head-mohawk:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+
+.james-head-mohawk,
+.james-head-mohawk:before,
+.james-head-mohawk:after {
+  width: 5em;
+  height: 5em;
+  border-top-right-radius: 30%;
+}
+
+.james-head-mohawk {
+  transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
+}
+
+.james-head-mohawk:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+.james-head-mohawk:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+
+.james-head-hair {
+  height: 130px;
+  width: 150px;
+  background-color: #0A0606;
+  border-radius: 50%;
+  transform: translate(103%, -70%);
+}
+
+.james-main-face {
+  height: 100px;
+  width: 135px;
+  background-color: #76483D;
+  transform: translate(9.5%);
+  border-radius: 0% 0% 30% 30%;
+}
+
+.james-forehead {
+  position: absolute;
+  height: 65px;
+  width: 110px;
+  background-color: #76483D;
+  transform: translate(12%, -40%);
+}
+
+.james-brows {
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  /* border: solid red; */
+  transform: translate(15%, 95%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.james-brows-left {
+  height: 10px;
+  width: 35px;
+  background-color: #0A0606;
+}
+
+.james-brows-right {
+  height: 10px;
+  width: 35px;
+  background-color: #0A0606;
+  overflow: hidden;
+}
+
+.james-brows-right-cut {
+  position: absolute;
+  height: 3px;
+  width: 20px;
+  background-color: #76483D;
+  margin-left: 5px;
+  transform: rotate(120deg);
+}
+
+.james-forehead-round {
+  position: absolute;
+  height: 20px;
+  width: 110px;
+  border-radius: 100%;
+  background-color: #76483D;
+  transform: translate(12%, -180%);
+}
+
+.james-eyes {
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  /* border: solid red; */
+  transform: translate(15%, 50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.james-eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.james-eyebrow {
+  height: 3px;
+  width: 20px;
+  border-radius: 40%;
+  background-color: #0A0606;
+}
+
+.james-pupil {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 100%;
+  transform: translate(0, 45%);
+}
+
+.james-nose-container {
+  position: absolute;
+  transform: translate(295%, 270%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.james-nose-rec {
+  position: absolute;
+  height: 18px;
+  width: 40px;
+  background-color: #76483D;
+  /* border: solid red; */
+  margin-bottom: 1px;
+}
+
+.james-nose {
+  position: relative;
+  background-color: #0A0606;
+  opacity: 40%;
+  text-align: left;
+}
+
+.james-nose:before,
+.james-nose:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+
+.james-nose,
+.james-nose:before,
+.james-nose:after {
+  width: 1.2em;
+  height: 1.2em;
+  border-top-right-radius: 30%;
+}
+
+.james-nose {
+  transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
+}
+
+.james-nose:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+.james-nose:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+
+.james-nose-cover {
+  position: absolute;
+  background-color: #76483D;
+  text-align: left;
+}
+
+.james-nose-cover:before,
+.james-nose-cover:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+
+.james-nose-cover,
+.james-nose-cover:before,
+.james-nose-cover:after {
+  width: 1em;
+  height: 1em;
+  border-top-right-radius: 30%;
+}
+
+.james-nose-cover {
+  transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
+}
+
+.james-nose-cover:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+.james-nose-cover:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+
+.james-beard {
+  height: 200px;
+  width: 160px;
+  background-color: #0A0606;
+  border-radius: 50%;
+}
+
+.james-beard-faux {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  background-color: #0A0606;
+  transform: translate(8%, 75%);
+}
+
+.james-mouth {
+  height: 20px;
+  width: 40px;
+  border-radius: 40%;
+  background-color: #76483D;
+  transform: translate(95%, 90%);
+}
+
+.james-lips {
+  height: 10px;
+  width: 30px;
+  border-radius: 30%;
+  border: solid 4px #FD696B;
+  background-color: #FEFCFB;
+  transform: translate(20%, 50%);
+}

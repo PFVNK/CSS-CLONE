@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.emoji-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-face {
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  background-color: #ffcc4d;
+}
+
+.emoji-eyes {
+  height: 80px;
+  width: 140px;
+  /* border: solid red; */
+  transform: translate(10%, 20%);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.emoji-left-eye {
+  width: 30px;
+  height: 30px;
+  background-color: #e75a70;
+  transform: rotate(290deg);
+}
+
+.emoji-left-eye:before,
+.emoji-left-eye:after {
+  content: "";
+  background-color: #e75a70;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.emoji-left-eye:before {
+  top: -15px;
+  left: 0;
+}
+
+.emoji-left-eye:after {
+  top: 0px;
+  left: 15px;
+}
+
+.emoji-right-eye {
+  width: 30px;
+  height: 30px;
+  background-color: #e75a70;
+  transform: rotate(-20deg);
+}
+
+.emoji-right-eye:before,
+.emoji-right-eye:after {
+  content: "";
+  background-color: #e75a70;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.emoji-right-eye:before {
+  top: -15px;
+  left: 0;
+}
+
+.emoji-right-eye:after {
+  top: 0px;
+  left: 15px;
+}
